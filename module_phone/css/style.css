@@ -36,4 +36,10 @@ ul {
 
 .table {
 	width: 200px;
+	text-align: center;
+}
+
+.display {
+	width: 200px;
+	margin-top: 60px;
 }
