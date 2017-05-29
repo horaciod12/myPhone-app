@@ -2,6 +2,10 @@ body {
 	font-family: 'Khula', sans-serif;
 }
 
+.row {
+	margin-top: 60px;
+}
+
 .table {
 	width: 300px;
 	height: 300px;
@@ -27,13 +31,8 @@ body {
 	font-size: 18px;
 }
 
-
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
 	border-top: none;
-}
-
-.row {
-	margin-top: 60px;
 }
 
 .call {
@@ -41,4 +40,13 @@ body {
 	padding: 10px;
 	height: 63px;
     width: 65px;
+    font-size: 30px;
+    line-height: 51px;
+}
+
+.display button {
+	float: right;
+    padding: 0;
+    background: none;
+    border: none;
 }
